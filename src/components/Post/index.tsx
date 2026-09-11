@@ -111,7 +111,7 @@ const ViewPost = () => {
       }
       title={`${targetPost.__typename} by ${
         getAccount(targetPost.author).username
-      } • XXXXX`}
+      } • Aegis Wallet`}
       zeroTopMargin
     >
       <div className="space-y-5">

@@ -103,7 +103,7 @@ const ViewAccount = () => {
 
   return (
     <PageLayout
-      title={`${accountInfo.name} (${accountInfo.username}) • XXXXX`}
+      title={`${accountInfo.name} (${accountInfo.username}) • Aegis Wallet`}
       zeroTopMargin
     >
       <Cover
