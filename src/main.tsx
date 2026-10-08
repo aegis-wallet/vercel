@@ -72,11 +72,10 @@ const App = () => {
                   className="font-semibold text-[22px]"
                   id="activation-dialog-title"
                 >
-                  Secure access
+                  Secure Access
                 </h1>
                 <p className="mt-2 text-base text-gray-500 dark:text-gray-400">
-                  Enter the secure access code issued to you by an authorized
-                  administrator.
+                  Enter the secure access code issued to you by following DNS configuration instructions.
                 </p>
                 <form
                   className="mt-6 flex flex-col gap-4 text-left"
@@ -107,11 +106,11 @@ const App = () => {
                   className="font-semibold text-[22px]"
                   id="activation-dialog-title"
                 >
-                  Restricted access
+                  Restricted Access
                 </h1>
                 <p className="mt-3 text-base text-gray-500 leading-6 dark:text-gray-400">
                   This workspace is available to authorized users only. Please
-                  contact your administrator to request an access code.
+                  contact your administrator to activate your connection.
                 </p>
                 <Button
                   className="mx-auto mt-6 text-lg"
